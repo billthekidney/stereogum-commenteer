@@ -1,0 +1,21 @@
+{
+    "description": "Builds a list of all of your comments and replies to them",
+    "manifest_version": 2,
+    "name": "Stereogum Commenteer",
+    "version": "0.0.1",
+    "icons": {
+	"16": "icons/twotone_comment_bank_black_16dp.png",
+	"18": "icons/twotone_comment_bank_black_18dp.png",
+	"32": "icons/twotone_comment_bank_black_32dp.png",
+	"36": "icons/twotone_comment_bank_black_36dp.png",
+	"128": "icons/twotone_comment_bank_black_128dp.png"
+    },
+    "content_scripts": [
+	{
+	    "matches": ["https://*.stereogum.com/*"],
+	    "js": ["comment.js"],
+	    "css": ["comment.css"],
+	    "run_at": "document_end"
+	}
+    ]
+}
