@@ -8,3 +8,5 @@ to leave more than 300 comments on a typical day. But it can be used
 for the other parts of stereogum.com.
 
 Please report any bugs or feature requests to https://github.com/billthekidney/stereogum-commenteer/issues
+
+The developers of this extension are not affiliated with stereogum.com and its owners.
