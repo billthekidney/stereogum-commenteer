@@ -1,0 +1,51 @@
+div.commenteer-response-toc-container {
+    border: solid 3px #ccc;
+    font-size: smaller;
+    list-style-type: none;
+}
+
+div.commenteer-response-footer {
+    border-top: dashed 1px #ddd;
+    margin-top: 4px;
+}
+div.commenteer-response-footer p {
+    font-size: 8pt;
+}
+
+button.commenteer-load-more-comments {
+    width: 100%;
+    background: #fff;
+    border: solid 1px #ccc;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px 0px 10px 0px;
+    color: #ff5254;
+    font-family: "Trade Gothic",helvetica,sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+button.commenteer-load-more-comments.hidden {
+    display: none;
+    visibility: collapsed;
+}
+
+button.commenteer-load-more-comments.visible {
+    display: block;
+    visibility: visible;
+}
+
+button.commenteer-load-more-comments:hover {
+    color: #000;
+}
+
+ol.commenteer-responses {
+    padding-left: 0em;
+    margin-left: 1em;
+}
+
+li.commenteer-ref {
+    padding-left: 0em;
+    margin-left: 0em;
+    overflow-x: clip;
+}
