@@ -248,7 +248,7 @@ function createTOC(username) {
     let div3 = document.createElement("div");
     div3.classList.add("commenteer-response-footer");
     let p3 = document.createElement("p");
-    p3.innerHTML = "Comment references block created by the stereogum-commenteer extension. See <a href=\"https://addons.mozilla.org/en-US/developers/addon/stereogum-downgrader/edit\" target=\"_blank\">the addon page</a> for more info."
+    p3.innerHTML = "Comment references block created by the stereogum-commenteer extension. See <a href=\"https://addons.mozilla.org/en-US/addon/stereogum-commenteer\" target=\"_blank\">the addon page</a> for more info."
     div3.appendChild(p3);
     div.appendChild(div3);
 
